@@ -1,4 +1,4 @@
-# 日志文件
+# Logs
 logs
 *.log
 npm-debug.log*
@@ -8,56 +8,15 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-/dist
-dist/
-/dist/
-lib/
-build/
-.next/
-out/
-.git/
-
+dist
 dist-ssr
-coverage
 *.local
-.env
-.env.local
-.env.*.local
 
-# 其他配置文件（按需放开）
-# .env.development
-# .env.production
-# .env.test
-# .env.example
-
-# Windows
-[Dd]esktop.ini
-Thumbs.db
-$RECYCLE.BIN/
-
-# macOS
-.DS_Store
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-
-# 小程序忽略项
-project.private.config.json
-
-# 前端通用忽略项
-package-lock.json
-
-/cypress/videos/
-/cypress/screenshots/
-
-# 编辑器/IDE
+# Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.sublime-project
-.sublime-workspace
-.atom/
 .idea
+.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
