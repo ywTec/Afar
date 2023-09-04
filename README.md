@@ -1,2 +1,2 @@
 # Afar
-A useful Vue UI library.
+A useful Vue3 UI library.
