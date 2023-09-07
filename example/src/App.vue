@@ -1,13 +1,12 @@
 <template>
   <div>
-    <YwButton @click="onClick" type="primary">button</YwButton>
+    <VAButton @click="onClick" type="primary">button</VAButton>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { YwButton } from "vafar";
+import { VAButton } from "vafar";
 const onClick = () => {
   console.log("click");
 };
 </script>
-
