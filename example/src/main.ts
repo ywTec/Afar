@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
 import Vafar from 'vafar'
-import  'vafar-ui/ui/es/style.css'
+import  'vafar/ui/es/style.css'
 
 const app=createApp(App);
 
