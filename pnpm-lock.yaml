@@ -4,7 +4,7 @@ importers:
 
   example:
     dependencies:
-      '@yw/afar-ui':
+      afar-ui:
         specifier: workspace:^
         version: link:../packages/components
       less:

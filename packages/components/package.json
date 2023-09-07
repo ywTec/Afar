@@ -1,10 +1,10 @@
 {
-  "name": "@yw/afar-ui",
+  "name": "afar-ui",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
-  "main": "./index.ts",
-  "module": "./index.ts",
+  "main": "./ui/lib/index.ts",
+  "module": "./ui/es/index.ts",
   "files": [
     "ui"
   ],
@@ -22,5 +22,9 @@
     "less": "^4.2.0",
     "vite": "^4.4.5",
     "vite-plugin-vue-setup-extend": "^0.4.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
