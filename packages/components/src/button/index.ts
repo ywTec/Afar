@@ -1,4 +1,4 @@
-// src/button/index.js
+// src/button/index.ts
 import  withInstall  from '../utils/withInstall';
 import button from './src/index.vue';
 // 导出 install

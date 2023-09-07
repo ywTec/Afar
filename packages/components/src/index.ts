@@ -1,8 +1,8 @@
-// components/src/index.js
-import YwButton from './button'
+// components/src/index.ts
+import VAButton from './button'
 
 
-export { YwButton }
+export { VAButton }
 
-export default [YwButton]
+export default [VAButton]
 

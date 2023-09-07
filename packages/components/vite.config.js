@@ -17,12 +17,12 @@ export default defineConfig({
     //cssCodeSplit: true,
     rollupOptions: {
       //忽略打包vue、element-plus
-      external: ["vue", "element-plus"],
+      external: ["vue"],
       input: ["index.ts"],
       output: [
         {
           format: "es",
-          //不用打包成.es.js,这里我们想把它打包成.js
+          //不用打包成.es.js,这里我们想把它打包成.ts
           entryFileNames: "[name].ts",
           //让打包目录和我们目录对应
           preserveModules: true,

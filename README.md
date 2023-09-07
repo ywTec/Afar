@@ -1,2 +1,3 @@
-# Afar
-A useful Vue3 UI library.
+# vafar 👻
+
+A useful Vue3 + Ts UI library.

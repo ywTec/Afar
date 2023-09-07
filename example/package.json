@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "afar-ui": "workspace:^",
+    "vafar": "workspace:^",
     "less": "^4.2.0",
     "vue": "^3.3.4"
   },

@@ -3,7 +3,7 @@
     <slot></slot>
   </button>
 </template>
-<script name="YwButton" setup>
+<script name="VAButton" setup>
 import { computed } from "vue";
 const props = defineProps({
   type: {
@@ -11,6 +11,7 @@ const props = defineProps({
     default: "default",
   },
 });
+//类似 ant button type='primary' 用法
 const typeClass = computed(() => `button-${props.type}`);
 </script>
 

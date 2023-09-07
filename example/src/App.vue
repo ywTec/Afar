@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts" setup>
-import { YwButton } from "afar-ui";
+import { YwButton } from "vafar";
 const onClick = () => {
   console.log("click");
 };

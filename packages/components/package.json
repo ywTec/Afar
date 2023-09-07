@@ -1,7 +1,7 @@
 {
-  "name": "afar-ui",
+  "name": "vafar",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.1",
   "type": "module",
   "main": "./ui/lib/index.ts",
   "module": "./ui/es/index.ts",
